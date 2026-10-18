@@ -15,7 +15,7 @@ android {
         applicationId = "com.sanabria.vester"
         minSdk = 25
         targetSdk = 36
-        versionCode = 17
+        versionCode = 21
         versionName = "2.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
