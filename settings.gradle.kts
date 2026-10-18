@@ -21,5 +21,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MultiWallet"
+rootProject.name = "vESTER"
 include(":app")

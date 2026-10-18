@@ -1,4 +1,4 @@
-# TODO vESTER (MultiWallet)
+# TODO vESTER
 
 La idea: una app sencilla para llevar tus cuentas a mano y lo que compartes con otra gente, sin conectar bancos.
 Todo funciona sin internet y sin registro.

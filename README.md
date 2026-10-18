@@ -144,17 +144,17 @@ Not yet: groups are local to your phone, so you keep the accounts and tell peopl
 <details>
 <summary><b>Will you add &lt;feature&gt;?</b></summary>
 
-Ideas are welcome: [open an issue](https://github.com/Eduzyrtin/MultiWallet/issues) so they don't get lost. The `TODO.md` file in this repository lists what is done and what is planned.
+Ideas are welcome: [open an issue](https://github.com/Eduzyrtin/vESTER/issues) so they don't get lost. The `TODO.md` file in this repository lists what is done and what is planned.
 </details>
 
 ## Found a bug? Have an idea?
 
-Please open an **[issue](https://github.com/Eduzyrtin/MultiWallet/issues)** with your device, Android version and what you were doing. Please don't paste real financial data; a description or a screenshot with the discreet mode on is plenty.
+Please open an **[issue](https://github.com/Eduzyrtin/vESTER/issues)** with your device, Android version and what you were doing. Please don't paste real financial data; a description or a screenshot with the discreet mode on is plenty.
 
 ## Building from source
 
 ```bash
-git clone https://github.com/Eduzyrtin/MultiWallet.git
+git clone https://github.com/Eduzyrtin/vESTER.git
 ```
 
 Open the folder in **Android Studio** and run the `debug` variant, or from a terminal:
