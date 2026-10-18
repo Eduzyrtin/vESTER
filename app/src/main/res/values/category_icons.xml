@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Emojis que se pueden poner a una categoría -->
+<resources>
+    <string-array name="category_icons" translatable="false">
+        <item>🍔</item>
+        <item>🛒</item>
+        <item>☕</item>
+        <item>🍕</item>
+        <item>🚌</item>
+        <item>🚗</item>
+        <item>⛽</item>
+        <item>✈️</item>
+        <item>🏠</item>
+        <item>💡</item>
+        <item>📱</item>
+        <item>🎬</item>
+        <item>🎮</item>
+        <item>🏋️</item>
+        <item>💊</item>
+        <item>🛍️</item>
+        <item>👕</item>
+        <item>🎁</item>
+        <item>📚</item>
+        <item>🐶</item>
+        <item>👶</item>
+        <item>💼</item>
+        <item>💰</item>
+        <item>📦</item>
+    </string-array>
+</resources>

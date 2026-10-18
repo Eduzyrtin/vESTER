@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<!-- Columnas de las listas en tarjetas. En tablets (values-sw600dp) hay más. -->
+<resources>
+    <integer name="account_columns">1</integer>
+    <integer name="debt_columns">1</integer>
+</resources>

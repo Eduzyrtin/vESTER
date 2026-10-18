@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<!--
+    Tarjeta de una cuenta en la pantalla principal. El adapter le pone el color (con un degradado suave) y los textos.
+    El nombre y el saldo van en la misma línea y, si con letra grande no caben, el saldo baja a la siguiente.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="6dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="2dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="112dp"
+                android:paddingStart="20dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="6dp">
+
+            <TextView
+                    android:id="@+id/accountName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|start"
+                    android:maxLines="1"
+                    android:text="@string/account"
+                    android:textAppearance="@style/TextAppearance.App.Title"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="20sp" />
+
+            <com.sanabria.vester.tools.RollingTextView
+                    android:id="@+id/value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|end"
+                    android:text="@string/value_literate"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="28sp" />
+
+            <androidx.constraintlayout.helper.widget.Flow
+                    android:id="@+id/titleFlow"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:constraint_referenced_ids="accountName,value"
+                    app:flow_horizontalBias="0"
+                    app:flow_horizontalGap="12dp"
+                    app:flow_horizontalStyle="spread_inside"
+                    app:flow_verticalGap="2dp"
+                    app:flow_wrapMode="chain"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                    android:id="@+id/divider"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="12dp"
+                    android:alpha="0.25"
+                    android:background="@color/primaryText"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/titleFlow" />
+
+            <ImageButton
+                    android:id="@+id/accountMenu"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="-14dp"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/account_options"
+                    android:src="@drawable/ic_m_more_vert"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+            <TextView
+                    android:id="@+id/lastLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_transaction"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="13sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/accountMenu"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/accountMenu" />
+
+            <TextView
+                    android:id="@+id/lastTransaction"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:gravity="end"
+                    android:text="@string/account"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="13sp"
+                    app:layout_constrainedWidth="true"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/lastLabel"
+                    app:layout_constraintEnd_toStartOf="@+id/accountMenu"
+                    app:layout_constraintHorizontal_bias="1"
+                    app:layout_constraintStart_toEndOf="@+id/lastLabel" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

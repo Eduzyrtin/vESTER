@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<!-- Modo oscuro: mismos nombres que en values/colors.xml. Los colores de las cuentas no cambian. -->
+<resources>
+    <color name="colorPrimary">#1D1915</color>
+    <color name="colorPrimaryDark">#4A4138</color>
+    <color name="colorBackground">#14110E</color>
+    <color name="colorCardBackground">#201C18</color>
+    <color name="primaryText">#F4EEE6</color>
+    <color name="secondaryText">#B9B0A5</color>
+    <color name="divider">#433B33</color>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<resources>
+    <integer name="account_columns">1</integer>
+    <integer name="debt_columns">2</integer>
+</resources>

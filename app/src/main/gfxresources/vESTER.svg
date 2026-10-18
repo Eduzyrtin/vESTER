@@ -1,0 +1,68 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" id="svg3194" viewBox="0 0 1024 768" height="768px" width="1024px"
+        version="1.1">
+    <metadata id="metadata3200"></metadata>
+    <defs id="defs3198"></defs>
+    <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-5bab8c1a-5601-4a06-bb00-787e65d734bf">
+        <stop id="stop3175" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+        <stop id="stop3177" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+    </linearGradient>
+    <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%"
+            id="3d_gradient3-logo-5bab8c1a-5601-4a06-bb00-787e65d734bf">
+        <stop id="stop3180" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+        <stop id="stop3182" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+        <stop id="stop3184" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+    </linearGradient>
+    <g id="logo-group">
+        <image xlink:href="" id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)"></image>
+        <g id="logo-center" transform="translate(0 0)">
+            <image xlink:href="" id="icon_container" x="0" y="0" style="display: none;"></image>
+            <g id="slogan"
+                    style="font-style:normal;font-weight:400;font-size:32px;line-height:1;font-family:Montserrat;font-variant-ligatures:none;text-align:center;text-anchor:middle"
+                    transform="translate(0 0)"></g>
+            <g id="title"
+                    style="font-style:normal;font-weight:700;font-size:72px;line-height:1;font-family:'Brandmark1 Bold Color';font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+                    transform="translate(0 0)">
+                <path id="path3203"
+                        style="font-style:normal;font-weight:700;font-size:72px;line-height:1;font-family:'Brandmark1 Bold Color';font-variant-ligatures:normal;text-align:center;text-anchor:middle"
+                        d="m 400.60588,2.52 h 9 l 16.344,-40.104 h -11.736 l -9.072,23.328 -9,-23.328 h -11.80801 z" stroke-width="0"
+                        stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000"
+                        transform="translate(0 360.48339999999996) translate(87.42625774999999 -14.245600000000003) scale(3.15) translate(-384.33387 37.584)"></path>
+                <g id="path3205" aria-label="E"
+                        transform="translate(0 360.48339999999996) translate(233.30354524999993 -64.822) scale(3.15) translate(-427.64412 53.64)">
+                    <path class="c1"
+                            d="M81.8186,128.08252h36.36279v-10.51367H81.8186V128.08252z M81.8186,105.47217h36.36279v-10.729H81.8186 V105.47217z M81.8186,71.91748v10.729h36.36279v-10.729H81.8186z"
+                            transform="translate(345.82552 -125.55748)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000"
+                            stroke="#000000"></path>
+                </g>
+                <g id="path3207" aria-label="S"
+                        transform="translate(0 360.48339999999996) translate(364.26164524999996 -66.40959999999998) scale(3.15) translate(-466.21812 54.144)">
+                    <path class="c1"
+                            d="M80.97266,119.83057l-1.51953-1.62793l7.43848-8.89941l1.92188,2.41211 c1.50488,1.88672,3.4707,3.43457,5.6748,4.47168c2.07324,0.979,4.3125,1.49023,6.47266,1.49023 c2.5498,0,4.72363-0.56152,6.12109-1.57666c1.25977-0.91455,1.87207-2.13867,1.87207-3.75146 c0-1.75732-0.54004-2.84424-1.91504-3.87402c-1.58496-1.18115-4.14844-2.146-7.12207-3.26904 c-0.25195-0.09375-0.51074-0.19434-0.77734-0.29541c-4.08301-1.51904-8.00684-3.08154-11.1543-5.5874 c-1.82861-1.45459-3.18213-3.06055-4.14014-4.90381c-1.06543-2.04492-1.60547-4.37061-1.60547-6.9126 c0-4.42822,1.91553-8.52539,5.38623-11.53564c3.37012-2.91602,7.89844-4.52148,12.75977-4.52148 c6.27832,0,12.40625,2.26074,17.71289,6.53076l1.91602,1.54834l-6.90625,8.98633l-2.01563-1.65625 c-3.5498-2.93066-7.45313-4.6084-10.70703-4.6084c-3.02441,0-6.56738,1.31055-6.625,5.00439 c-0.02148,1.64893,0.77051,2.54883,1.97266,3.3916c1.72168,1.20947,4.45703,2.25342,7.35254,3.3623l0.02832,0.00732 c0.4541,0.18018,0.90723,0.36035,1.36133,0.53271c4.09668,1.60596,7.9707,3.11816,10.9082,5.5376 c3.4707,2.86572,5.16309,6.63867,5.16309,11.54248c0,2.65723-0.56836,5.12695-1.69238,7.34424 c-1.05859,2.07422-2.57031,3.88184-4.51465,5.37207c-3.54199,2.70703-8.31641,4.20508-13.4502,4.20508 C93.2998,128.55029,86.229,125.45459,80.97266,119.83057z"
+                            transform="translate(386.76499 -125.59373)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000"
+                            stroke="#000000"></path>
+                </g>
+                <g id="path3209" aria-label="T"
+                        transform="translate(0 360.48339999999996) translate(502.17258274999995 -64.822) scale(3.15) translate(-506.99937 53.64)">
+                    <path class="c1" d="M94.23975,82.64648H78.97412v-10.729h42.05176v10.729h-15.48145v45.43604H94.23975V82.64648z"
+                            transform="translate(428.02525 -125.55748)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000"
+                            stroke="#000000"></path>
+                </g>
+                <g id="path3211" aria-label="E"
+                        transform="translate(0 360.48339999999996) translate(654.56684225 -64.822) scale(3.15) translate(-552.3785 53.64)">
+                    <path class="c1"
+                            d="M81.8186,128.08252h36.36279v-10.51367H81.8186V128.08252z M81.8186,105.47217h36.36279v-10.729H81.8186 V105.47217z M81.8186,71.91748v10.729h36.36279v-10.729H81.8186z"
+                            transform="translate(470.5599 -125.55748)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000"
+                            stroke="#000000"></path>
+                </g>
+                <g id="path3213" aria-label="R"
+                        transform="translate(0 360.48339999999996) translate(798.67934225 -64.822) scale(3.15) translate(-595.1285 53.64)">
+                    <path class="c1"
+                            d="M121.90405,128.08252h-13.65918l-13.37109-19.27637V97.83984h2.16016 c3.40527,0,5.9541-0.74902,7.56738-2.23242c1.38281-1.27441,2.08105-3.11084,2.08105-5.47266 c0-2.4624-0.71973-4.33447-2.13867-5.55859c-1.4541-1.26025-3.75879-1.92969-6.64648-1.92969h-8.49609v45.43604H78.09595V71.91748 h20.66553c3.16113,0,6.0127,0.45361,8.48926,1.34619c2.44141,0.88574,4.5293,2.21094,6.20703,3.93164 c3.10352,3.18994,4.74512,7.71191,4.74512,13.0835c0,4.81738-1.33203,8.79932-3.95996,11.83789 c-1.8291,2.10986-4.24121,3.72266-7.2002,4.81006L121.90405,128.08252z"
+                            transform="translate(517.03255 -125.55748)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000"
+                            stroke="#000000"></path>
+                </g>
+            </g>
+            <image xlink:href="" id="icon" x="0" y="0" style="display: none;"></image>
+        </g>
+    </g>
+</svg>

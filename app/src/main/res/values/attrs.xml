@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<resources>
+    <attr name="cardBackgroundColor" format="color"></attr>
+    <attr name="textColorPrimary" format="color"></attr>
+    <attr name="textColorSecondary" format="color"></attr>
+    <!-- Color de la barra superior, de la inferior y de la barra de estado -->
+    <attr name="barColor" format="color"></attr>
+
+    <!-- Atributos que entiende RollingTextView (los mismos nombres que en un TextView) -->
+    <declare-styleable name="RollingTextView">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:gravity" />
+        <attr name="android:text" />
+    </declare-styleable>
+</resources>

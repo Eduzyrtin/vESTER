@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Partes que paga un miembro en un reparto desigual: "Ana: [2] partes" -->
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/partsLayout"
+        style="@style/FormInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/partsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="0123456789"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="3" />
+</com.google.android.material.textfield.TextInputLayout>

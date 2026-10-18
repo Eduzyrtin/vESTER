@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<resources>
+    <!--<color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#00363a</color>-->
+    <color name="colorPrimary">#FFEFD9</color>
+    <color name="colorPrimaryDark">#F0D5AE</color>
+    <color name="colorBackground">#FBF8F3</color>
+    <color name="colorCardBackground">#FFFFFF</color>
+
+
+
+
+    <color name="colorAccent">#FB8C00</color>
+    <color name="primaryText">#1F1A14</color>
+    <color name="secondaryText">#5F574D</color>
+    <color name="divider">#E3D9CA</color>
+
+    <!--OnBoarding-->
+    <color name="gradient_start">#2196F3</color>
+    <color name="gradient_end">#03A9F4</color>
+    <color name="tab_indicator_transparent">#00E0E0E0</color>
+
+
+
+    <color name="White">#FFFFFF</color>
+    <color name="DarkGray">#A9A9A9</color>
+</resources>

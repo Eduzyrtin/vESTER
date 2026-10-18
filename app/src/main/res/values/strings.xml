@@ -1,0 +1,112 @@
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<resources>
+    <string name="account">Account</string>
+    <string name="value_literate">Value</string>
+    <string name="app_name" translatable="false">vESTER</string>
+    <string name="acc_name">Account Name</string>
+    <string name="initial_value">Initial Value</string>
+    <string name="color_select">Account Color</string>
+    <string name="account_test">Account Test</string>
+    <string name="add">Add</string>
+    <string name="about_menu">About</string>
+    <string name="account_currency">Account Currency</string>
+    <string name="add_account">Add new Account</string>
+    <string name="title_activity_edit_account">Edit Account</string>
+    <string name="select_account">Select Account</string>
+    <string name="value">Amount</string>
+    <string name="payment">Payment</string>
+    <string name="debt_paid">Debt to Pay</string>
+    <string name="debt_collected">Debt to be Collected</string>
+    <string name="income">Income</string>
+    <string name="debts">Debts</string>
+    <string name="debt">Debt</string>
+    <string name="done_on">Settled on:</string>
+    <string name="add_debt">Add a debt for later. Use it to pay or be paid without forgetting</string>
+    <string name="see_debts">See the completed debts in this view</string>
+    <string name="completed">Completed</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <string name="date">Date</string>
+    <string name="delete_account_sure">Do you want to delete this Account?</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="start_edit">Edit Account</string>
+    <string name="edit_transaction">Edit Transaction</string>
+    <string name="total">Total</string>
+    <string name="concept">Concept</string>
+    <string name="last_transaction">Last transaction:</string>
+    <string name="combination">Combination</string>
+    <string name="help">Help</string>
+    <string name="from">From</string>
+    <string name="make_transaction">Make Transaction</string>
+    <string name="transaction">Transaction</string>
+    <string name="transfer">Transfer</string>
+    <string name="make_transfer">Make Transfer</string>
+    <string name="to">To</string>
+    <string name="accounts_first">You have to create some Accounts First</string>
+    <string name="deleting_account">The account and all its transactions will be deleted</string>
+    <string name="all_transactions">All Transactions</string>
+    <!--Tutorial-->
+    <string name="got_it">Got It!</string>
+    <string name="create_account">Here you can create an Account. It can be a bank one, an online shop, or even a loan</string>
+    <string name="make_transaction_tut">This is to make a transaction. Like buying food or selling an old Vynil</string>
+    <string name="all_tut">Unlike selecting an account to see its transactions, an option to rule them all!</string>
+    <string name="combination_tut">In this place, you can combine balances, to see the totals</string>
+    <string name="tools_tut">More tools to manage your balances, debts, etc.</string>
+    <string name="reorder_tut">Long press to reorder. Swipe right to edit, left to delete</string>
+    <!--OnBoarding-->
+    <string name="multiple_accounts">Multiple Accounts</string>
+    <string name="accounts_description">Create multiple accounts, modify them, delete them and customize its color!
+        You can track your balances as easy as it can get!
+    </string>
+    <string name="get_started">Get Started</string>
+    <string name="transactions_listed">Transactions Listed</string>
+    <string name="transactions_description">Did you get an income? Add it! and you will get a list of records with date and concept</string>
+    <string name="easy_visuals">Easy Visuals</string>
+    <string name="easy_description">You can see how much you have in a quick glance</string>
+    <string name="keep_record">Keep a Record</string>
+    <string name="keep_description">List your Transactions, by account or all at the same time. Easy to track with charts</string>
+    <string name="shortcuts">Quick Access</string>
+    <string name="shortcuts_description">Open It, Add It, Forget It! Made it to be simple, no hassles</string>
+    <!--Copyright Info-->
+    <string name="make_debt">Make Debt</string>
+    <string name="completed_debts">Completed Debts</string>
+    <string name="modify_transaction">Modify Transaction</string>
+    <string name="modify_debt">Modify Debt</string>
+    <string name="debt_dialog">Delete Debt</string>
+    <string name="debt_sure">Are you sure?</string>
+    <string name="debt_bulk">Debt Bulk</string>
+    <string name="debt_bulk_tutorial">Settle all the ticked debts at once</string>
+    <string name="calendar">Calendar</string>
+    <string name="make_backup">Make Backup</string>
+    <string name="restore_backup">Restore Backup</string>
+    <!--2.0-->
+    <string name="balance">Balance</string>
+    <string name="required_name">Write a name</string>
+    <string name="invalid_amount">Enter an amount greater than 0</string>
+    <string name="no_last_transaction">No transactions yet</string>
+    <string name="last_transaction_value" translatable="false">"%1$s     %2$s"</string>
+    <string name="no_transactions">No transactions yet</string>
+    <string name="no_transactions_hint">Add your first one with the New button.</string>
+    <string name="date_and_account" translatable="false">%1$s · %2$s</string>
+    <string name="pending">Pending</string>
+    <string name="delete_and_revert">Delete and undo it in the balance</string>
+    <string name="delete_keep_balance">Delete but keep the balance</string>
+    <string name="total_value">Total: %s</string>
+    <string name="select_debts_first">Tick some debts first</string>
+    <plurals name="debts_selected">
+        <item quantity="one">%d debt ticked</item>
+        <item quantity="other">%d debts ticked</item>
+    </plurals>
+    <string name="backup_done">Backup saved</string>
+    <string name="restore_done">Backup restored</string>
+    <string name="backup_error">Could not complete it: %s</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="account_options">Account options</string>
+    <string name="up_value" translatable="false">↑ %s</string>
+    <string name="down_value" translatable="false">↓ %s</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Una persona con la que se comparte el gasto: nombre, lo que le toca y quitarla -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    <com.google.android.material.textfield.TextInputLayout
+            style="@style/FormInput"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:hint="@string/person_name">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/rowName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName|textCapWords" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+            style="@style/FormInput"
+            android:layout_width="120dp"
+            android:layout_marginStart="8dp"
+            android:hint="@string/value">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/rowAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="0123456789.,"
+                android:importantForAutofill="no"
+                android:inputType="numberDecimal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+            android:id="@+id/rowRemove"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/remove"
+            android:src="@drawable/ic_m_close" />
+</LinearLayout>

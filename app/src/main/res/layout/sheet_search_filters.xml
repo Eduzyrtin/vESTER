@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Hoja con los filtros avanzados de la búsqueda -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="20dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="24dp">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp"
+                android:text="@string/search_filters"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        <com.sanabria.vester.tools.DropdownField
+                android:id="@+id/accountField"
+                style="@style/FormDropdown"
+                android:hint="@string/select_account" />
+
+        <com.sanabria.vester.tools.DropdownField
+                android:id="@+id/categoryField"
+                style="@style/FormDropdown"
+                android:hint="@string/category" />
+
+        <com.google.android.material.textfield.TextInputLayout
+                style="@style/FormInput"
+                android:hint="@string/search_from"
+                app:endIconDrawable="@drawable/ic_m_calendar"
+                app:endIconMode="custom">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fromInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+                style="@style/FormInput"
+                android:hint="@string/search_to"
+                app:endIconDrawable="@drawable/ic_m_calendar"
+                app:endIconMode="custom">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/toInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:cursorVisible="false"
+                    android:focusable="false"
+                    android:inputType="none" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                    style="@style/FormInput"
+                    android:layout_width="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    android:hint="@string/search_min">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/minInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789.,"
+                        android:inputType="numberDecimal" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                    style="@style/FormInput"
+                    android:layout_width="0dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:hint="@string/search_max">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/maxInput"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:digits="0123456789.,"
+                        android:inputType="numberDecimal" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/resetFilters"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reset" />
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/applyFilters"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/search_apply" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

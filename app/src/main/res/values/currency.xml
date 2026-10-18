@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<resources>
+    <string-array name="currency">
+        <item name="euro">€</item>
+        <item name="dollar">$</item>
+        <item name="generic">¤</item>
+        <item name="pound">£</item>
+        <item name="yen">¥</item>
+        <item name="rupee">₹</item>
+        <item name="peso">₱</item>
+    </string-array>
+</resources>

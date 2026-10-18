@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carpeta privada con las fotos de los tickets, que se comparte con la cámara y con el visor de imágenes -->
+<paths>
+    <files-path name="receipts" path="receipts/" />
+</paths>

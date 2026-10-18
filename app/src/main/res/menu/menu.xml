@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:title="@string/add_account"
+            app:itemIconTint="?attr/textColorPrimary"
+            app:itemTextColor="?attr/textColorPrimary"
+            android:id="@+id/add"
+            android:icon="@drawable/ic_baseline_add_small"
+            app:showAsAction="always" />
+    <!-- El ojo solo aparece con el modo discreto activo: enseña u oculta los importes -->
+    <item
+            android:title="@string/show_amounts"
+            android:id="@+id/toggleAmounts"
+            android:icon="@drawable/ic_m_visibility"
+            android:visible="false"
+            app:showAsAction="ifRoom" />
+    <item
+            android:title="@string/archived_accounts"
+            android:id="@+id/archivedAccounts"
+            android:visible="false" />
+    <item
+            android:title="@string/settings"
+            android:id="@+id/settings" />
+    <item
+            android:title="@string/help"
+            android:id="@+id/help" />
+    <item
+            android:title="@string/make_backup"
+            android:id="@+id/backup" />
+    <item
+            android:title="@string/restore_backup"
+            android:id="@+id/restore" />
+    <item
+            android:title="@string/about_menu"
+            android:id="@+id/about"
+            android:visible="false" />
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+            android:enabled="true"
+            android:icon="@mipmap/transaction"
+            android:shortcutDisabledMessage="@string/make_transaction"
+            android:shortcutId="makeTransaction"
+            android:shortcutShortLabel="@string/make_transaction"
+            android:shortcutLongLabel="@string/make_transaction">
+        <!-- Each one of these intents needs an android:action, even if you don't
+             do anything with it. Otherwise you're in for a crash! -->
+        <intent
+                android:action="com.sanabria.multiwallet.MakeTransaction"
+                android:targetClass="com.sanabria.vester.MakeTransaction"
+                android:targetPackage="com.sanabria.vester" />
+    </shortcut>
+
+    <shortcut
+            android:enabled="true"
+            android:icon="@mipmap/transfer"
+            android:shortcutDisabledMessage="@string/make_transfer"
+            android:shortcutId="makeTransfer"
+            android:shortcutShortLabel="@string/make_transfer"
+            android:shortcutLongLabel="@string/make_transfer">
+        <!-- Each one of these intents needs an android:action, even if you don't
+             do anything with it. Otherwise you're in for a crash! -->
+        <intent
+                android:action="com.sanabria.multiwallet.TransferAccount"
+                android:targetClass="com.sanabria.vester.TransferAccount"
+                android:targetPackage="com.sanabria.vester" />
+    </shortcut>
+
+    <shortcut
+            android:enabled="true"
+            android:icon="@mipmap/debt"
+            android:shortcutDisabledMessage="@string/make_debt"
+            android:shortcutId="makeDebt"
+            android:shortcutShortLabel="@string/make_debt"
+            android:shortcutLongLabel="@string/make_debt">
+        <!-- Each one of these intents needs an android:action, even if you don't
+             do anything with it. Otherwise you're in for a crash! -->
+        <intent
+                android:action="com.sanabria.multiwallet.MakeDebt"
+                android:targetClass="com.sanabria.vester.MakeDebt"
+                android:targetPackage="com.sanabria.vester" />
+    </shortcut>
+</shortcuts>

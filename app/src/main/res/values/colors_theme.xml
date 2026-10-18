@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!--
+    Colores de los roles de Material 3. La paleta es la de siempre: gris claro para las barras, naranja de acento,
+    verde y rojo para ingresos y pagos. Los de modo oscuro están en values-night/colors_theme.xml.
+-->
+<resources>
+    <color name="m3_primary">#C45F00</color>
+    <color name="m3_on_primary">#FFFFFF</color>
+    <color name="m3_primary_container">#FFDDB0</color>
+    <color name="m3_on_primary_container">#3B2300</color>
+    <color name="m3_secondary_container">#FFE6C7</color>
+    <color name="m3_on_secondary_container">#3B2300</color>
+    <color name="m3_surface_container_low">#F6F1E9</color>
+    <color name="m3_surface_container">#F1EBE1</color>
+    <color name="m3_surface_container_high">#EAE3D7</color>
+    <color name="m3_outline">#8C8379</color>
+    <color name="m3_outline_variant">#E3D9CA</color>
+    <color name="m3_error">#D93025</color>
+    <color name="positive">#177A33</color>
+    <color name="negative">#D32F2F</color>
+    <color name="tile_orange">#F57C00</color>
+    <color name="tile_blue">#1E88E5</color>
+    <color name="tile_green">#43A047</color>
+    <color name="tile_purple">#8E24AA</color>
+    <color name="tile_red">#E53935</color>
+    <color name="tile_teal">#00897B</color>
+    <color name="tile_pink">#D81B60</color>
+    <color name="tile_indigo">#3949AB</color>
+</resources>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <!--
+        Las copias de seguridad usan el selector de archivos del sistema (Storage Access Framework),
+        así que la app no necesita ningún permiso de almacenamiento.
+    -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+            android:name=".VesterApplication"
+            android:allowBackup="true"
+            android:enableOnBackInvokedCallback="true"
+            android:localeConfig="@xml/locales_config"
+            tools:targetApi="33"
+            android:dataExtractionRules="@xml/data_extraction_rules"
+            android:fullBackupContent="@xml/backup_descriptor"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <!-- Pantalla de entrada: enseña la presentación la primera vez y después abre la principal -->
+        <activity
+                android:name=".OnBoarding"
+                android:exported="true"
+                android:theme="@style/Theme.App.Starting"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Accesos directos del icono (transacción, transferencia y deuda) -->
+            <meta-data
+                    android:name="android.app.shortcuts"
+                    android:resource="@xml/shortcuts" />
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".AccountTransaction"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".AddAccount"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".EditAccount"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".MakeTransaction"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".ModifyTransaction"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".TransferAccount"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".AllTransactions"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".FullBarChart"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".AccountCombination"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".DebtsView"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".MakeDebt"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".ModifyDebt"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".CompletedDebts"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Calendar"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".SettingsActivity"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Goals"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".GoalForm"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Groups"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".GroupForm"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".GroupDetail"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".GroupExpenseForm"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Templates"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Search"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".ImportCsv"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Categories"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".CategoryForm"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".ScheduledTransactions"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".SplitTransaction"
+                android:screenOrientation="portrait"
+                android:windowSoftInputMode="adjustResize"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".CoinCounter"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Suggestions"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Reports"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+        <activity
+                android:name=".Stats"
+                android:screenOrientation="portrait"
+                tools:ignore="LockedOrientationActivity,DiscouragedApi" />
+
+        <!-- Para que la cámara y el visor de imágenes lleguen a las fotos de los tickets -->
+        <provider
+                android:name="androidx.core.content.FileProvider"
+                android:authorities="${applicationId}.files"
+                android:exported="false"
+                android:grantUriPermissions="true">
+            <meta-data
+                    android:name="android.support.FILE_PROVIDER_PATHS"
+                    android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Widget con el saldo total para la pantalla de inicio -->
+        <receiver
+                android:name=".tools.BalanceWidget"
+                android:exported="false">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/widget_balance_info" />
+        </receiver>
+
+        <!-- Mosaico de Ajustes rápidos para apuntar un movimiento -->
+        <service
+                android:name=".tools.NewTransactionTile"
+                android:exported="true"
+                android:icon="@drawable/ic_tile_add"
+                android:label="@string/make_transaction"
+                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+        </service>
+
+        <!-- Lectura de notificaciones de pagos para proponer movimientos (el usuario tiene que darle acceso) -->
+        <service
+                android:name=".tools.PaymentNotificationListener"
+                android:label="@string/notification_listener_label"
+                android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+                android:exported="false">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

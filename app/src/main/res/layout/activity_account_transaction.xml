@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Detalle de una cuenta en una pantalla propia (móvil). En tablet el mismo detalle va en el panel derecho de la principal. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <include
+            android:id="@+id/detail"
+            layout="@layout/view_account_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+</FrameLayout>

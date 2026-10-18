@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Logo de vESTER para la pantalla de inicio. El sistema espera un icono de 288 dp y solo enseña el círculo central
+    de 192 dp, así que el logo va centrado y más estrecho que ese círculo sobre un lienzo transparente.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                    android:width="288dp"
+                    android:height="288dp" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item
+            android:width="108dp"
+            android:height="24dp"
+            android:gravity="center">
+        <bitmap
+                android:gravity="fill"
+                android:src="@drawable/vester_480" />
+    </item>
+</layer-list>

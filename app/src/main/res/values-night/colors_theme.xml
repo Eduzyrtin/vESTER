@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<resources>
+    <color name="m3_primary">#FFB74D</color>
+    <color name="m3_on_primary">#2B1700</color>
+    <color name="m3_primary_container">#5C3A00</color>
+    <color name="m3_on_primary_container">#FFE0B2</color>
+    <color name="m3_secondary_container">#5C3A00</color>
+    <color name="m3_on_secondary_container">#FFE0B2</color>
+    <color name="m3_surface_container_low">#1A1612</color>
+    <color name="m3_surface_container">#231F1A</color>
+    <color name="m3_surface_container_high">#2D2822</color>
+    <color name="m3_outline">#978E83</color>
+    <color name="m3_outline_variant">#433B33</color>
+    <color name="m3_error">#FF8A80</color>
+    <color name="positive">#5BD64A</color>
+    <color name="negative">#FF7A70</color>
+    <color name="tile_orange">#FFB74D</color>
+    <color name="tile_blue">#64B5F6</color>
+    <color name="tile_green">#81C784</color>
+    <color name="tile_purple">#CE93D8</color>
+    <color name="tile_red">#EF9A9A</color>
+    <color name="tile_teal">#4DB6AC</color>
+    <color name="tile_pink">#F48FB1</color>
+    <color name="tile_indigo">#9FA8DA</color>
+</resources>

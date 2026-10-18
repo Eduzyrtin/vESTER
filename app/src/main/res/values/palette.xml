@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Colores que se pueden elegir para una cuenta (6 por fila): pasteles, neutros y tonos más intensos -->
+<resources>
+    <array name="account_palette">
+        <item>#FFFFE0B2</item>
+        <item>#FFFFCCBC</item>
+        <item>#FFF8BBD0</item>
+        <item>#FFE1BEE7</item>
+        <item>#FFD1C4E9</item>
+        <item>#FFC5CAE9</item>
+
+        <item>#FFBBDEFB</item>
+        <item>#FFB3E5FC</item>
+        <item>#FFB2EBF2</item>
+        <item>#FFB2DFDB</item>
+        <item>#FFC8E6C9</item>
+        <item>#FFDCEDC8</item>
+
+        <item>#FFF0F4C3</item>
+        <item>#FFFFF9C4</item>
+        <item>#FFFFECB3</item>
+        <item>#FFFFFFFF</item>
+        <item>#FFCFD8DC</item>
+        <item>#FFD7CCC8</item>
+
+        <item>#FFFB8C00</item>
+        <item>#FFEF5350</item>
+        <item>#FFD81B60</item>
+        <item>#FFAB47BC</item>
+        <item>#FF5C6BC0</item>
+        <item>#FF29B6F6</item>
+
+        <item>#FF26A69A</item>
+        <item>#FF66BB6A</item>
+        <item>#FFFFCA28</item>
+        <item>#FF8D6E63</item>
+        <item>#FF78909C</item>
+        <item>#FF37474F</item>
+    </array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Widget de la pantalla de inicio: saldo total y botón para apuntar un movimiento -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/widgetRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/widget_background"
+        android:padding="16dp">
+
+    <TextView
+            android:id="@+id/widgetLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total_balance"
+            android:textColor="@color/secondaryText"
+            android:textSize="13sp" />
+
+    <TextView
+            android:id="@+id/widgetBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/widgetLabel"
+            android:layout_marginTop="2dp"
+            android:layout_toStartOf="@+id/widgetAdd"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/value_literate"
+            android:textColor="@color/primaryText"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    <ImageButton
+            android:id="@+id/widgetAdd"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/widget_add_background"
+            android:contentDescription="@string/make_transaction"
+            android:src="@drawable/ic_widget_add" />
+</RelativeLayout>

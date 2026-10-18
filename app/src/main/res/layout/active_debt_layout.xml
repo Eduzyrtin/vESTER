@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2022 Eduardo Sanabria Gago -->
+
+<!-- Deuda pendiente: persona, importe que queda, fecha límite, lo ya pagado y acciones -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardViewDebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            app:cardBackgroundColor="?attr/cardBackgroundColor"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:strokeColor="?attr/colorOutlineVariant"
+            app:strokeWidth="1dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="14dp">
+
+            <FrameLayout
+                    android:id="@+id/avatarBack"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                        android:id="@+id/avatarText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+            </FrameLayout>
+
+            <TextView
+                    android:id="@+id/who"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?android:attr/textColorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toStartOf="@+id/debt"
+                    app:layout_constraintStart_toEndOf="@+id/avatarBack"
+                    app:layout_constraintTop_toTopOf="@+id/avatarBack" />
+
+            <TextView
+                    android:id="@+id/subtitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="@+id/who"
+                    app:layout_constraintStart_toStartOf="@+id/who"
+                    app:layout_constraintTop_toBottomOf="@+id/who" />
+
+            <TextView
+                    android:id="@+id/debt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFeatureSettings="tnum"
+                    android:maxLines="1"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/avatarBack" />
+
+            <!-- Fecha límite y lo ya pagado; se oculta si no hay nada que decir -->
+            <TextView
+                    android:id="@+id/extra"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="?android:attr/textColorSecondary"
+                    android:textSize="13sp"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/who"
+                    app:layout_constraintTop_toBottomOf="@+id/subtitle" />
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                    android:id="@+id/paidProgress"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:max="100"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/extra"
+                    app:trackColor="?attr/colorSurfaceContainerHigh"
+                    app:trackCornerRadius="4dp"
+                    app:trackStopIndicatorSize="0dp"
+                    app:trackThickness="6dp" />
+
+            <androidx.constraintlayout.widget.Barrier
+                    android:id="@+id/contentBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:barrierDirection="bottom"
+                    app:constraint_referenced_ids="avatarBack,extra,paidProgress" />
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                    android:id="@+id/selectCheck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="-8dp"
+                    android:contentDescription="@string/debt_bulk"
+                    app:layout_constraintBottom_toBottomOf="@+id/settleButton"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/settleButton" />
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/deleteButton"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete_action"
+                    app:layout_constraintBottom_toBottomOf="@+id/settleButton"
+                    app:layout_constraintEnd_toStartOf="@+id/partialButton"
+                    app:layout_constraintTop_toTopOf="@+id/settleButton" />
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/partialButton"
+                    style="@style/Widget.Material3.Button.TextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/partial_payment"
+                    app:layout_constraintBottom_toBottomOf="@+id/settleButton"
+                    app:layout_constraintEnd_toStartOf="@+id/settleButton"
+                    app:layout_constraintTop_toTopOf="@+id/settleButton" />
+
+            <com.google.android.material.button.MaterialButton
+                    android:id="@+id/settleButton"
+                    style="@style/Widget.Material3.Button.TonalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="@string/settle"
+                    app:icon="@drawable/ic_m_check"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/contentBottom" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</FrameLayout>

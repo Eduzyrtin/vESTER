@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2022-2026 Eduardo Sanabria Gago -->
+<!-- SPDX-License-Identifier: GPL-3.0-only -->
+
+<!-- Textos de las funciones añadidas en la 2.1 -->
+<resources>
+    <!-- Transacciones enlazadas -->
+    <string name="delete_whole_transfer">Delete the whole transfer (both accounts)</string>
+    <string name="delete_whole_group">Delete all its linked parts</string>
+
+    <!-- Programadas y recurrentes -->
+    <string name="repeat">Repeat</string>
+    <string-array name="repeat_options">
+        <item>Doesn\'t repeat</item>
+        <item>Every day</item>
+        <item>Every week</item>
+        <item>Every month</item>
+        <item>Every year</item>
+    </string-array>
+    <string name="once">Once</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="scheduled_saved">Scheduled: it will be added on its date</string>
+    <string name="scheduled_applied_now">Added now and scheduled to repeat</string>
+    <string name="delete_scheduled_sure">Delete this scheduled transaction? The ones already added are kept.</string>
+
+    <!-- Gasto compartido -->
+    <string name="split_expense">Shared expense</string>
+    <string name="paid_from">Paid from</string>
+    <string name="add_account_row">+ Account</string>
+    <string name="shared_with">Shared with</string>
+    <string name="add_person">+ Person</string>
+    <string name="split_equally">Equal parts</string>
+    <string name="remove">Remove</string>
+    <string name="person_name">Name</string>
+    <string name="person_n">Person %d</string>
+    <string name="unassigned">Left to assign: %s</string>
+    <string name="single_account_pays_all">This account pays the whole amount</string>
+    <string name="my_share">Your part: %s</string>
+    <string name="payments_mismatch">The accounts add up to %1$s but the total is %2$s</string>
+    <string name="shares_too_big">The other people\'s parts are bigger than the total</string>
+
+    <!-- Contador de efectivo -->
+    <string name="cash_counter">Cash counter</string>
+    <string name="count_as_income">Add as income</string>
+    <string name="adjust_balance">Adjust balance</string>
+    <string name="reset">Reset</string>
+    <string name="current_balance">Current balance: %s</string>
+    <string name="count_something_first">Count some coins or notes first</string>
+    <string name="saved">Saved</string>
+    <string name="cash_count">Cash count</string>
+    <string name="cash_count_adjustment">Cash count adjustment</string>
+    <string name="balance_already_matches">The balance already matches</string>
+    <string name="adjust_balance_message">%1$s goes from %2$s to %3$s. A transaction of %4$s will be added.</string>
+
+    <!-- Informes -->
+    <string name="reports">Reports</string>
+    <string name="by_month">By month</string>
+    <string name="by_year">By year</string>
+    <string name="all_accounts">All accounts</string>
+    <string name="report_income">Income %s</string>
+    <string name="report_expense">Expenses %s</string>
+    <string name="expenses">Expenses</string>
+
+    <!-- Estadísticas -->
+    <string name="stats">Statistics</string>
+    <string name="stats_data">Data</string>
+    <string name="stats_accounts">Accounts</string>
+    <string name="stats_transactions">Transactions</string>
+    <string name="stats_first_transaction">First transaction</string>
+    <string name="stats_debts">Debts</string>
+    <string name="stats_active_debts">Pending debts</string>
+    <string name="stats_scheduled">Scheduled</string>
+    <string name="stats_suggestions">Suggestions</string>
+    <string name="stats_ids">Ids</string>
+    <string name="stats_id_range" translatable="false">%1$d – %2$d</string>
+    <string name="stats_money">Money</string>
+    <string name="stats_total_balance">Total balance</string>
+    <string name="stats_app">App</string>
+    <string name="stats_version">Version</string>
+    <string name="stats_database">Database version</string>
+
+    <!-- Sugerencias de notificaciones -->
+    <string name="suggestions">Suggestions</string>
+    <string name="notification_access_explained">vESTER can read the notifications of Google Wallet, your bank and your email to suggest transactions. Nothing is added until you confirm it, and other apps\' notifications are ignored.</string>
+    <string name="grant_access">Grant access</string>
+    <string name="discard">Discard</string>
+    <string name="notification_listener_label">vESTER suggestions</string>
+
+    <!-- Ruedas y dividir -->
+    <string name="divide_into">Divide into how many parts?</string>
+    <string name="divide_by_2" translatable="false">÷2</string>
+    <string name="divide_by_3" translatable="false">÷3</string>
+    <string name="divide_by_4" translatable="false">÷4</string>
+    <string name="divide_by_n" translatable="false">÷N</string>
+
+    <!-- Pantalla principal -->
+    <string name="new_menu">New</string>
+    <string name="more">More</string>
+    <string name="total_balance">Total balance</string>
+    <string name="this_month_value">This month · %s</string>
+    <string name="no_accounts_title">No accounts yet</string>
+    <string name="no_accounts_hint">Create your first account to start keeping track of your money.</string>
+    <string name="create_first_account">Create account</string>
+    <string name="all_transactions_short">Transactions</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="settle">Settle</string>
+    <string name="delete_action">Delete</string>
+    <string name="save">Save</string>
+    <string name="minus_sign" translatable="false">−</string>
+    <string name="plus_sign" translatable="false">+</string>
+    <string name="tutorial_next">Next</string>
+    <string name="dynamic_color">System colors (Material You)</string>
+    <string name="no_completed_debts">There are no completed debts yet</string>
+    <string name="no_scheduled_title">No scheduled transactions</string>
+    <string name="no_scheduled_hint">Choose a future date or a repetition when you make a transaction.</string>
+    <string name="no_suggestions_title">No suggestions yet</string>
+    <string name="no_suggestions_hint">Payments detected in your notifications will appear here.</string>
+    <string name="no_day_title">Nothing on this day</string>
+    <string name="notif_channel_scheduled">Scheduled transactions</string>
+    <string name="notif_scheduled_title">Scheduled transaction added</string>
+    <string name="notif_scheduled_many_title">Scheduled transactions added</string>
+    <plurals name="notif_scheduled_many">
+        <item quantity="one">%d transaction was added to your accounts</item>
+        <item quantity="other">%d transactions were added to your accounts</item>
+    </plurals>
+    <string name="edit_scheduled">Edit scheduled transaction</string>
+    <string name="duplicate">Duplicate</string>
+    <string name="account_icon">Icon</string>
+    <string name="icon_none">None</string>
+    <string name="transaction_deleted">Transaction deleted</string>
+    <string name="undo">Undo</string>
+    <string name="coin_add">Add one</string>
+    <string name="coin_remove">Remove one</string>
+    <string name="owed_to_you">Owed to you</string>
+    <string name="you_owe">You owe</string>
+    <string name="to_collect">To collect</string>
+    <string name="to_pay">To pay</string>
+    <string name="no_debts_title">No pending debts</string>
+    <string name="no_debts_hint">Add what you owe or what others owe you, and settle it with one tap.</string>
+    <string name="new_debt">New debt</string>
+    <!-- Categories -->
+    <string name="category">Category</string>
+    <string name="no_category">No category</string>
+    <string name="categories">Categories</string>
+    <string name="new_category">New category</string>
+    <string name="edit_category">Edit category</string>
+    <string name="category_name">Category name</string>
+    <string name="monthly_budget">Monthly budget (optional)</string>
+    <string name="previous_month">Previous month</string>
+    <string name="next_month">Next month</string>
+    <string name="month_spent">Spent: %s</string>
+    <string name="month_spent_budget">Spent: %1$s of %2$s budgeted</string>
+    <string name="budget_left">%1$s left of %2$s</string>
+    <string name="budget_over">%s over budget</string>
+    <string name="no_budget">No budget</string>
+    <string name="uncategorized">Uncategorized</string>
+    <string name="uncategorized_hint">Expenses without a category</string>
+    <string name="no_categories_title">No categories yet</string>
+    <string name="no_categories_hint">Create categories to see where your money goes.</string>
+    <string name="delete_category_sure">Delete this category? Its transactions are kept without a category.</string>
+    <string name="cat_food">Food</string>
+    <string name="cat_transport">Transport</string>
+    <string name="cat_home">Home</string>
+    <string name="cat_leisure">Leisure</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_bills">Bills</string>
+    <string name="cat_salary">Salary</string>
+    <string name="cat_other">Other</string>
+    <string name="notif_channel_budget">Budgets</string>
+    <string name="notif_budget_almost">You have spent %1$s of your %2$s monthly budget</string>
+    <string name="notif_budget_over">Over budget: you have spent %1$s of %2$s</string>
+    <string name="settings">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_amounts">Entering amounts</string>
+    <string name="settings_input_hint">How amounts are typed</string>
+    <string name="input_system">Keyboard</string>
+    <string name="input_wheels">Wheels</string>
+    <string name="input_keypad">Keypad</string>
+    <string name="settings_privacy">Privacy</string>
+    <string name="settings_lock">Lock with fingerprint or screen lock</string>
+    <string name="settings_lock_unavailable">Set up a fingerprint or a screen lock on your phone to use this.</string>
+    <string name="settings_discreet">Discreet mode</string>
+    <string name="settings_discreet_hint">Hides amounts until you tap the eye on the main screen.</string>
+    <string name="settings_month_start">Budget month starts on day</string>
+    <string name="settings_month_start_hint">If you get paid on the 25th, choose 25: categories and budgets will count from that day.</string>
+    <string name="settings_data">Data</string>
+    <string name="export_csv">Export to CSV</string>
+    <string name="export_csv_hint">Saves all your transactions in a file you can open in a spreadsheet.</string>
+    <string name="export_done">File saved</string>
+    <string name="export_error">Could not save the file</string>
+    <string name="version_label">Version %s</string>
+    <string name="show_amounts">Show amounts</string>
+    <string name="hide_amounts">Hide amounts</string>
+    <string name="unlock_title">Unlock vESTER</string>
+    <string name="locked_title">vESTER is locked</string>
+    <string name="unlock">Unlock</string>
+    <string name="archive_account">Archive account</string>
+    <string name="archived_accounts">Archived accounts</string>
+    <string name="account_archived">%s archived</string>
+    <string name="account_restored">%s restored</string>
+    <string name="account_deleted">%s deleted</string>
+    <string name="debt_deleted">Debt deleted</string>
+    <string name="partial_payment">Partial</string>
+    <string name="person_optional">Person (optional)</string>
+    <string name="due_date_optional">Due date (optional)</string>
+    <string name="debt_due">Due %s</string>
+    <string name="debt_overdue">Overdue since %s</string>
+    <string name="debt_paid_of">Paid %1$s of %2$s</string>
+    <string name="clear_date">Clear date</string>
+    <string name="goals">Savings goals</string>
+    <string name="new_goal">New goal</string>
+    <string name="edit_goal">Edit goal</string>
+    <string name="goal_name">Goal name</string>
+    <string name="goal_target">Amount to save</string>
+    <string name="goal_account">Linked account</string>
+    <string name="goal_no_account">Manual savings</string>
+    <string name="goal_target_date">Target date (optional)</string>
+    <string name="goal_add_money">Add</string>
+    <string name="goal_progress">%1$s of %2$s</string>
+    <string name="goal_reached">Goal reached! 🎉</string>
+    <string name="goal_save_per_month">Save %1$s a month to reach it by %2$s</string>
+    <string name="goal_missing">%s to go</string>
+    <string name="goal_pace">At your pace: %s</string>
+    <string name="goal_no_pace">No savings in this account lately</string>
+    <string name="no_goals_title">No goals yet</string>
+    <string name="no_goals_hint">Create a goal and see how close you are, and when you will get there.</string>
+    <string name="delete_goal_sure">Delete this goal? Your accounts and transactions are not affected.</string>
+    <string name="widget_description">Your total balance and a shortcut to add a transaction</string>
+    <string name="shortcut_add_to">Add to %s</string>
+    <string name="settings_currencies">Currencies</string>
+    <string name="settings_main_currency">Main currency</string>
+    <string name="settings_currencies_hint">Your accounts use different currencies. Write how much one unit of each is worth in the main currency to add them up.</string>
+    <string name="exchange_rate">Exchange rate</string>
+    <string name="groups">Groups</string>
+    <string name="new_group">New group</string>
+    <string name="edit_group">Edit group</string>
+    <string name="group_name">Group name</string>
+    <string name="group_my_name">Your name in the group</string>
+    <string name="group_me">Me</string>
+    <string name="group_member_me">%s (you)</string>
+    <string name="group_others_hint">Other people (separated by commas)</string>
+    <string name="group_need_people">Add at least one other person</string>
+    <string name="group_balances">Balances</string>
+    <string name="group_settle_up">How to settle up</string>
+    <string name="group_expenses">Expenses</string>
+    <string name="group_add_expense">Add expense</string>
+    <string name="group_edit_expense">Edit expense</string>
+    <string name="group_expense">Expense</string>
+    <string name="group_payment">Payment</string>
+    <string name="group_paid_by">Paid by</string>
+    <string name="group_split_between">Split between</string>
+    <string name="group_select_all">All</string>
+    <string name="group_each_pays">Each one pays %1$s (%2$d people)</string>
+    <string name="group_need_participants">Choose at least one person</string>
+    <string name="group_is_owed">Is owed</string>
+    <string name="group_owes">Owes</string>
+    <string name="group_settled">All settled up</string>
+    <string name="group_you_are_owed">You are owed %s</string>
+    <string name="group_you_owe">You owe %s</string>
+    <string name="group_pays">%1$s pays %2$s</string>
+    <string name="group_settle_confirm">Record a payment of %s?</string>
+    <string name="group_no_expenses">No expenses yet</string>
+    <string name="group_expense_by">Paid by %1$s · %2$s · %3$d people</string>
+    <string name="group_payment_by">Payment by %1$s · %2$s</string>
+    <string name="group_expense_deleted">Expense deleted</string>
+    <string name="group_add_person">Add person</string>
+    <string name="group_remove_person">Remove person</string>
+    <string name="group_member_in_use">%s has expenses and can\'t be removed</string>
+    <string name="group_delete_sure">Delete this group and all its expenses?</string>
+    <string name="no_groups_title">No groups yet</string>
+    <string name="no_groups_hint">Create a group for a trip, your flat or a dinner and see who owes whom.</string>
+    <string name="import_csv">Import from CSV</string>
+    <string name="import_csv_hint">Reads a CSV file from another app or from your bank statement and adds its rows to an account.</string>
+    <string name="export_pdf">Export a month report (PDF)</string>
+    <string name="export_pdf_hint">A PDF with income, expenses, spending by category and the list of transactions of a month.</string>
+    <string name="auto_backup">Automatic weekly backup</string>
+    <string name="auto_backup_hint">Saves a copy of your data every week in a folder you choose (it can be on Drive). It keeps the last 4.</string>
+    <string name="auto_backup_never">No backup made yet</string>
+    <string name="auto_backup_last">Last backup: %s</string>
+    <string name="auto_backup_old">Last backup: %s. It has been a while, tap Back up now.</string>
+    <string name="backup_now">Back up now</string>
+    <string name="backup_change_folder">Change folder</string>
+    <string name="backup_error_short">Could not make the backup</string>
+    <string name="import_empty">That file has no rows to import</string>
+    <string name="import_none">None</string>
+    <string name="import_account">Import into account</string>
+    <string name="import_col_date">Date column</string>
+    <string name="import_col_amount">Amount column</string>
+    <string name="import_col_concept">Concept column</string>
+    <string name="import_col_category">Category column (optional)</string>
+    <string name="import_col_note">Note column (optional)</string>
+    <string name="import_file_info">%1$d rows and %2$d columns found</string>
+    <string name="import_preview">%1$d transactions can be imported, %2$d rows skipped</string>
+    <string name="import_hint">Rows already imported (same date, concept and amount) are skipped, so importing the same file twice does not duplicate anything.</string>
+    <string name="import_action">Import</string>
+    <string name="import_nothing">Nothing to import with those columns</string>
+    <string name="import_done">%1$d imported, %2$d already existed</string>
+    <string name="report_by_category">Spending by category</string>
+    <string name="report_count">%1$d transactions · spent %2$s</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="receipt_photo">Receipt photo</string>
+    <string name="receipt_camera">Take photo</string>
+    <string name="receipt_gallery">Gallery</string>
+    <string name="receipt_error">Could not use that image</string>
+    <string name="templates">Templates</string>
+    <string name="new_template">New template</string>
+    <string name="save_as_template">Save as template</string>
+    <string name="template_saved">Template saved</string>
+    <string name="template_added">%1$s added (%2$s)</string>
+    <string name="template_no_account">The account of that template no longer exists</string>
+    <string name="template_deleted">Template deleted</string>
+    <string name="no_templates_title">No templates yet</string>
+    <string name="no_templates_hint">Save the transactions you repeat, like a coffee or the bus pass, and add them with one tap.</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search concept or note</string>
+    <string name="search_all">All</string>
+    <string name="search_filters">Filters</string>
+    <string name="search_filters_count">Filters (%d)</string>
+    <string name="search_from">From</string>
+    <string name="search_to">To</string>
+    <string name="search_min">Minimum amount</string>
+    <string name="search_max">Maximum amount</string>
+    <string name="search_apply">Apply</string>
+    <string name="search_any_account">Any account</string>
+    <string name="search_any_category">Any category</string>
+    <string name="search_none">No results</string>
+    <string name="search_none_hint">Try other words or fewer filters.</string>
+    <string name="search_summary">%1$d results · %2$s</string>
+    <string name="group_split_equal">Equal parts</string>
+    <string name="group_split_parts">By shares</string>
+    <string name="group_parts_of">Shares of %s</string>
+    <string name="group_part_is">Each share is %1$s (%2$d shares)</string>
+    <string name="group_close">Close group</string>
+    <string name="group_reopen">Reopen group</string>
+    <string name="group_close_sure">Closing the group creates a debt for each payment that involves you (what you owe and what you are owed). You can reopen it later.</string>
+    <string name="group_closed_done">Group closed · debts created: %d</string>
+    <string name="group_closed_message">Closed: the debts have been created</string>
+    <string name="group_closed_names">Closed · %s</string>
+    <string name="notif_channel_debts">Debts</string>
+    <string name="notif_debt_soon_title">Debt due tomorrow</string>
+    <string name="notif_debt_over_title">Overdue debt</string>
+    <string name="notif_debt_collect">%1$s owes you %2$s</string>
+    <string name="notif_debt_pay">You owe %1$s %2$s</string>
+    <string name="group_percent">Shares are percentages (must add up to 100)</string>
+    <string name="group_percent_of">Percentage of %s</string>
+    <string name="group_percent_sum">Percentages add up to %d of 100</string>
+    <string name="group_percent_must">Percentages must add up to 100 (now %d)</string>
+    <string name="debt_history">Payments</string>
+    <string name="debt_history_title">%s: payments</string>
+    <string name="debt_no_payments">No partial payments yet</string>
+    <string name="debt_export_pdf">Export PDF</string>
+    <string name="debt_pdf_paid">Paid so far</string>
+    <string name="debt_pdf_left">Left to pay</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <item type="id" name="sign_unchecked" />
+    <item type="id" name="sign_checked" />
+</resources>

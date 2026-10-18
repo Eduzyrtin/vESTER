@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Emojis que se pueden poner a un grupo de gastos -->
+<resources>
+    <string-array name="group_icons" translatable="false">
+        <item>👥</item>
+        <item>✈️</item>
+        <item>🏠</item>
+        <item>🍽️</item>
+        <item>🏖️</item>
+        <item>🎉</item>
+        <item>🚗</item>
+        <item>⚽</item>
+        <item>🏕️</item>
+        <item>🎁</item>
+        <item>🛒</item>
+        <item>🍻</item>
+    </string-array>
+</resources>
