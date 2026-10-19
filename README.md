@@ -12,10 +12,13 @@ Keep track of your accounts, split expenses with friends and flatmates, and stay
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)](LICENSE)
 [![No internet permission](https://img.shields.io/badge/Internet%20permission-none-C6F28E)](#privacy)
 [![9 languages](https://img.shields.io/badge/languages-9-8E6FD8)](#features)
+[![Latest release](https://img.shields.io/github/v/release/Eduzyrtin/vESTER?color=C6F28E&label=download)](https://github.com/Eduzyrtin/vESTER/releases/latest)
 
 <img src="docs/media/hero.gif" alt="vESTER: accounts, a group with its balances and the monthly report" width="300">
 
-**[Get it on Google Play](https://play.google.com/store/apps/details?id=com.sanabria.vester)** · [Features](#features) · [Privacy](#privacy) · [FAQ](#faq) · [Build from source](#building-from-source)
+**[Get it on Google Play](https://play.google.com/store/apps/details?id=com.sanabria.vester)** · **[Download the APK](https://github.com/Eduzyrtin/vESTER/releases/latest)** · [Features](#features) · [Privacy](#privacy) · [FAQ](#faq) · [Build from source](#building-from-source)
+
+> **Free, on Google Play and GitHub.** vESTER is completely free. Install it from **[Google Play](https://play.google.com/store/apps/details?id=com.sanabria.vester)** for automatic updates, or download the APK from **[GitHub Releases](https://github.com/Eduzyrtin/vESTER/releases/latest)**. Same app either way.
 
 </div>
 
@@ -97,7 +100,7 @@ And it has **no internet access at all**. It doesn't even request Android's inte
 
 ## Getting started
 
-1. Install vESTER from **[Google Play](https://play.google.com/store/apps/details?id=com.sanabria.vester)** or [build it yourself](#building-from-source).
+1. Install vESTER from **[Google Play](https://play.google.com/store/apps/details?id=com.sanabria.vester)**, download the APK from **[GitHub Releases](https://github.com/Eduzyrtin/vESTER/releases/latest)** or [build it yourself](#building-from-source).
 2. Create your first account (a bank, a wallet, a loan, an online shop balance...) from the **+** button.
 3. Tap **Make Transaction** to log your first payment or income. Everything else lives under the **⋮** menu.
 4. Optional: in **Settings** pick your main currency, the day your month starts, the theme and the lock.
@@ -120,7 +123,7 @@ No, and it never will. You log things by hand (or accept a suggestion), which is
 <details>
 <summary><b>Is it free?</b></summary>
 
-The source code is free software under the GPL. Check the store listing for the current price of the Play Store build.
+Yes, completely. vESTER is free on Google Play and on GitHub, and the source code is free software under the GPL.
 </details>
 
 <details>
