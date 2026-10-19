@@ -144,7 +144,7 @@ Not yet: groups are local to your phone, so you keep the accounts and tell peopl
 <details>
 <summary><b>Will you add &lt;feature&gt;?</b></summary>
 
-Ideas are welcome: [open an issue](https://github.com/Eduzyrtin/vESTER/issues) so they don't get lost. The `TODO.md` file in this repository lists what is done and what is planned.
+Ideas are welcome: [open an issue](https://github.com/Eduzyrtin/vESTER/issues) so they don't get lost. The [`docs/TODO.md`](docs/TODO.md) file (in Spanish) lists what is done and what is planned.
 </details>
 
 ## Found a bug? Have an idea?
