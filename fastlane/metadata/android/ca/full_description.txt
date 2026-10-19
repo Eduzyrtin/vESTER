@@ -1,0 +1,42 @@
+Els teus diners, la teva gent, el teu mòbil. Res més.
+
+vESTER és un quadern acolorit per a les teves finances que viu només al teu telèfon. Sense connectar el banc, sense crear cap compte, sense anuncis i sense permís d'internet: les teves xifres mai surten del dispositiu tret que les exportis tu.
+
+★ COMPTES I MOVIMENTS
+• Tots els comptes que vulguis, cadascun amb el seu color i el seu emoji
+• Pagaments, ingressos i transferències entre comptes
+• Categories, notes i fotos de tiquets
+• Plantilles per al que repeteixes, autocompleció i cerca per text, import, data o compte
+• Desfés en esborrar, en lloc de diàlegs de «n'estàs segur?»
+
+★ DEUTES I DESPESES COMPARTIDES
+• Deutes per pagar i per cobrar, amb data límit i pagaments parcials
+• Grups per a un viatge, un pis o un sopar: reparteix a parts iguals o per parts, mira el saldo de cada persona i liquida amb el mínim de pagaments
+• Informe en PDF de qualsevol deute, a punt per enviar
+
+★ PRESSUPOSTOS, METES I INFORMES
+• Pressupostos mensuals per categoria amb avisos al 80 % i al 100 %
+• Metes d'estalvi amb el que has d'apartar cada mes
+• Informes per mes i any, calendari i combinació de comptes
+• El teu mes pot començar el dia de cobrament
+• Informe mensual en PDF
+
+★ PROGRAMATS I RECURRENTS
+• Posa data futura a un moviment i s'apunta sol
+• Repeteix-lo cada dia, setmana, mes o any
+
+★ PRIVADA PER DISSENY
+• Bloqueig amb empremta o rostre i app amagada als recents
+• Mode discret: els saldos es mostren com ••••
+• Exporta i importa CSV
+• Còpia de seguretat setmanal automàtica a la carpeta que triïs
+• Diverses monedes amb tipus de canvi manual
+
+★ RÀPIDA D'USAR
+• Widget, mosaic d'Ajustos ràpids i dreceres del launcher
+• Comptador d'efectiu per a monedes i bitllets
+• Suggeriments des de notificacions (opcional): si concedeixes l'accés a les notificacions, vESTER llegeix les notificacions de pagament només d'una llista curta d'apps de moneder, banc i correu per proposar-te suggeriments que confirmes tu. No es llegeix ni es desa res més i res surt del teu dispositiu.
+
+Disseny Material 3, temes clar i fosc, disseny per a tauletes. Disponible en anglès, castellà, francès, alemany, italià, portuguès, català, basc i gallec.
+
+Codi obert (GPLv3): github.com/Eduzyrtin/vESTER

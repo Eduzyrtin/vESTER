@@ -1,0 +1,42 @@
+Zure dirua, zure jendea, zure telefonoa. Besterik ez.
+
+vESTER zure finantzetarako koaderno koloretsu bat da, zure telefonoan bakarrik bizi dena. Bankura konektatu gabe, konturik sortu gabe, iragarkirik gabe eta internet baimenik gabe: zure zenbakiak ez dira inoiz zure gailutik ateratzen, zuk esportatzen ez badituzu.
+
+★ KONTUAK ETA MUGIMENDUAK
+• Nahi adina kontu, bakoitza bere kolore eta emojiarekin
+• Ordainketak, sarrerak eta kontuen arteko transferentziak
+• Kategoriak, oharrak eta txartelen argazkiak
+• Errepikatzen duzunerako txantiloiak, osatze automatikoa eta bilaketa testuaren, zenbatekoaren, dataren edo kontuaren arabera
+• Desegin ezabatu ondoren, «ziur zaude?» elkarrizketa-koadrorik gabe
+
+★ ZORRAK ETA GASTU PARTEKATUAK
+• Ordaintzeko eta kobratzeko zorrak, epemugarekin eta ordainketa partzialekin
+• Bidaia, pisu edo afari baterako taldeak: berdin edo zatika banatu, ikusi pertsona bakoitzaren saldoa eta kitatu ordainketa gutxienekin
+• Edozein zorren PDF txostena, bidaltzeko prest
+
+★ AURREKONTUAK, HELBURUAK ETA TXOSTENAK
+• Hileroko aurrekontuak kategoriako, %80an eta %100ean abisuekin
+• Aurrezki-helburuak, hilero zenbat alde batera utzi behar duzun adierazita
+• Hileko eta urteko txostenak, egutegia eta kontuen konbinazioa
+• Zure hilabetea soldata-egunean has daiteke
+• Hileroko PDF txostena
+
+★ PROGRAMATUAK ETA ERRAZKORRAK
+• Jarri etorkizuneko data mugimendu bati eta berez erregistratuko da
+• Errepikatu egunero, astero, hilero edo urtero
+
+★ PRIBATUA DISEINUz
+• Hatz-marka edo aurpegiaren blokeoa, aplikazioa azkenekoetan ezkutatuta
+• Modu diskretua: saldoak •••• gisa agertzen dira
+• CSV esportatu eta inportatu
+• Asteroko babeskopia automatikoa aukeratzen duzun karpetara
+• Hainbat moneta, kanbio-tasa eskuzkoarekin
+
+★ ABIAN ERABILTZEKO
+• Widgeta, ezarpen azkarren lauza eta abiarazlearen lasterbideak
+• Eskudiru-kontagailua txanponetarako eta billeteetarako
+• Jakinarazpenetako iradokizunak (aukerakoa): jakinarazpenetarako sarbidea ematen baduzu, vESTERek ordainketa-jakinarazpenak irakurtzen ditu zorro, banku eta posta aplikazioen zerrenda labur batetik soilik, zuk berresten dituzun iradokizunak egiteko. Ez da beste ezer irakurtzen edo gordetzen, eta ezer ez da zure gailutik ateratzen.
+
+Material 3 diseinua, gai argia eta iluna, tabletentzako diseinuak. Ingelesez, gaztelaniaz, frantsesez, alemanez, italieraz, portugesez, katalanez, euskaraz eta galegoz eskuragarri.
+
+Kode irekia (GPLv3): github.com/Eduzyrtin/vESTER

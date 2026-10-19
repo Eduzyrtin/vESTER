@@ -1,0 +1,1 @@
+vESTER 2.0: diseinu berria, gastuak banatzeko taldeak, aurrekontuak eta helburuak, kategoriak, txostenak, mugimendu programatuak, hatz-marka bidezko blokeoa, widgeta, CSV inportatu/esportatu eta babeskopia automatikoak.

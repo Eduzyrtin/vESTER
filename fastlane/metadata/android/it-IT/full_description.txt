@@ -1,0 +1,42 @@
+I tuoi soldi, le tue persone, il tuo telefono. Nient'altro.
+
+vESTER è un taccuino colorato per le tue finanze che vive solo sul tuo telefono. Nessun collegamento alla banca, nessun account, nessuna pubblicità e nessun permesso internet: i tuoi numeri non lasciano mai il dispositivo, a meno che tu non li esporti.
+
+★ CONTI E MOVIMENTI
+• Tutti i conti che vuoi, ognuno con il suo colore e la sua emoji
+• Pagamenti, entrate e trasferimenti tra conti
+• Categorie, note e foto degli scontrini
+• Modelli per ciò che ripeti, completamento automatico e ricerca per testo, importo, data o conto
+• Annulla dopo l'eliminazione, senza finestre «sei sicuro?»
+
+★ DEBITI E SPESE CONDIVISE
+• Debiti da pagare e da riscuotere, con scadenza e pagamenti parziali
+• Gruppi per un viaggio, un appartamento o una cena: dividi in parti uguali o per quote, vedi il saldo di ognuno e salda con il minimo di pagamenti
+• Report PDF di ogni debito, pronto da inviare
+
+★ BUDGET, OBIETTIVI E REPORT
+• Budget mensili per categoria con avvisi all'80 % e al 100 %
+• Obiettivi di risparmio con quanto mettere da parte ogni mese
+• Report per mese e anno, calendario e combinazione di conti
+• Il tuo mese può iniziare il giorno dello stipendio
+• Report mensile in PDF
+
+★ PROGRAMMATI E RICORRENTI
+• Dai una data futura a un movimento e si registra da solo
+• Ripetilo ogni giorno, settimana, mese o anno
+
+★ PRIVATA PER SCELTA
+• Blocco con impronta o volto, app nascosta nei recenti
+• Modalità discreta: i saldi appaiono come ••••
+• Esporta e importa CSV
+• Backup settimanale automatico nella cartella che scegli
+• Più valute con tasso di cambio manuale
+
+★ VELOCE DA USARE
+• Widget, riquadro Impostazioni rapide e scorciatoie del launcher
+• Contatore di contanti per monete e banconote
+• Suggerimenti dalle notifiche (facoltativo): se concedi l'accesso alle notifiche, vESTER legge le notifiche di pagamento solo da un breve elenco di app di wallet, banca e posta per proporti suggerimenti che confermi tu. Nient'altro viene letto o salvato e nulla lascia il tuo dispositivo.
+
+Design Material 3, temi chiaro e scuro, layout per tablet. Disponibile in inglese, spagnolo, francese, tedesco, italiano, portoghese, catalano, basco e galiziano.
+
+Open source (GPLv3): github.com/Eduzyrtin/vESTER

@@ -1,0 +1,1 @@
+vESTER 2.0: new design, groups to split expenses, budgets and goals, categories, reports, scheduled transactions, fingerprint lock, widget, CSV import/export and automatic backups.

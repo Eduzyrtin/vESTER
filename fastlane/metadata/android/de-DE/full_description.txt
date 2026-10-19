@@ -1,0 +1,42 @@
+Dein Geld, deine Leute, dein Handy. Sonst nichts.
+
+vESTER ist ein farbenfrohes Notizbuch für deine Finanzen, das komplett auf deinem Handy bleibt. Keine Bankanbindung, kein Konto, keine Werbung und keine Internetberechtigung: Deine Zahlen verlassen dein Gerät nie, es sei denn, du exportierst sie.
+
+★ KONTEN UND BUCHUNGEN
+• So viele Konten, wie du willst, jedes mit eigener Farbe und eigenem Emoji
+• Zahlungen, Einnahmen und Überweisungen zwischen Konten
+• Kategorien, Notizen und Belegfotos
+• Vorlagen für Wiederkehrendes, Autovervollständigung und Suche nach Text, Betrag, Datum oder Konto
+• Rückgängig nach dem Löschen statt „Bist du sicher?“-Dialogen
+
+★ SCHULDEN UND GETEILTE AUSGABEN
+• Schulden zu zahlen und einzuziehen, mit Fälligkeit und Teilzahlungen
+• Gruppen für Reise, WG oder Essen: gleichmäßig oder nach Anteilen teilen, Saldo jeder Person sehen und mit möglichst wenigen Zahlungen ausgleichen
+• PDF-Bericht zu jeder Schuld, versandfertig
+
+★ BUDGETS, SPARZIELE UND BERICHTE
+• Monatsbudgets pro Kategorie mit Warnung bei 80 % und 100 %
+• Sparziele mit dem Betrag, den du monatlich zurücklegen solltest
+• Berichte nach Monat und Jahr, Kalender und Kontenkombination
+• Dein Monat kann am Zahltag beginnen
+• Monatlicher PDF-Bericht
+
+★ GEPLANT UND WIEDERKEHREND
+• Gib einer Buchung ein zukünftiges Datum und sie wird automatisch erfasst
+• Wiederhole sie täglich, wöchentlich, monatlich oder jährlich
+
+★ PRIVAT DURCH DESIGN
+• Sperre per Fingerabdruck oder Gesicht, App in der Übersicht verborgen
+• Diskreter Modus: Salden erscheinen als ••••
+• CSV-Export und -Import
+• Automatische wöchentliche Sicherung in einen Ordner deiner Wahl
+• Mehrere Währungen mit manuellem Wechselkurs
+
+★ SCHNELL ERFASST
+• Widget, Schnelleinstellungs-Kachel und Launcher-Verknüpfungen
+• Bargeldzähler für Münzen und Scheine
+• Vorschläge aus Benachrichtigungen (optional): Wenn du den Zugriff auf Benachrichtigungen erlaubst, liest vESTER Zahlungsbenachrichtigungen nur aus einer kurzen Liste von Wallet-, Bank- und Mail-Apps, um dir Vorschläge zu machen, die du bestätigst. Nichts anderes wird gelesen oder gespeichert, und nichts verlässt dein Gerät.
+
+Material-3-Design, helles und dunkles Theme, Tablet-Layouts. Verfügbar auf Englisch, Spanisch, Französisch, Deutsch, Italienisch, Portugiesisch, Katalanisch, Baskisch und Galicisch.
+
+Open Source (GPLv3): github.com/Eduzyrtin/vESTER

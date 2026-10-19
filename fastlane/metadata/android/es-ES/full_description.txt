@@ -1,0 +1,42 @@
+Tu dinero, tu gente, tu móvil. Nada más.
+
+vESTER es un cuaderno colorido para tus finanzas que vive solo en tu teléfono. Sin conectar el banco, sin crear una cuenta, sin anuncios y sin permiso de internet: tus números nunca salen del dispositivo a menos que los exportes tú.
+
+★ CUENTAS Y MOVIMIENTOS
+• Todas las cuentas que quieras, cada una con su color y su emoji
+• Pagos, ingresos y transferencias entre cuentas
+• Categorías, notas y fotos de tickets
+• Plantillas para lo que repites, autocompletado y búsqueda por texto, importe, fecha o cuenta
+• Deshacer al borrar, en vez de diálogos de «¿seguro?»
+
+★ DEUDAS Y GASTOS COMPARTIDOS
+• Deudas por pagar y por cobrar, con fecha límite y pagos parciales
+• Grupos para un viaje, un piso o una cena: reparte a partes iguales o por partes, mira el saldo de cada persona y liquida con el mínimo de pagos
+• Informe en PDF de cualquier deuda, listo para enviar
+
+★ PRESUPUESTOS, METAS E INFORMES
+• Presupuestos mensuales por categoría con avisos al 80 % y al 100 %
+• Metas de ahorro con lo que debes apartar cada mes
+• Informes por mes y año, calendario y combinación de cuentas
+• Tu mes puede empezar el día de cobro
+• Informe mensual en PDF
+
+★ PROGRAMADOS Y RECURRENTES
+• Pon fecha futura a un movimiento y se apunta solo
+• Repítelo cada día, semana, mes o año
+
+★ PRIVADA POR DISEÑO
+• Bloqueo con huella o rostro y app oculta en recientes
+• Modo discreto: los saldos se muestran como ••••
+• Exporta e importa CSV
+• Copia de seguridad semanal automática en la carpeta que elijas
+• Varias monedas con tipo de cambio manual
+
+★ RÁPIDA DE USAR
+• Widget, ajuste rápido y accesos directos del launcher
+• Contador de efectivo para monedas y billetes
+• Sugerencias desde notificaciones (opcional): si concedes el acceso a notificaciones, vESTER lee las notificaciones de pago solo de una lista corta de apps de monedero, banco y correo para proponerte sugerencias que tú confirmas. No se lee ni guarda nada más y nada sale de tu dispositivo.
+
+Diseño Material 3, temas claro y oscuro, diseño para tabletas. Disponible en inglés, español, francés, alemán, italiano, portugués, catalán, euskera y gallego.
+
+Código abierto (GPLv3): github.com/Eduzyrtin/vESTER

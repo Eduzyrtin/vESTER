@@ -1,0 +1,1 @@
+vESTER 2.0: nou disseny, grups per repartir despeses, pressupostos i metes, categories, informes, moviments programats, bloqueig amb empremta, widget, importar/exportar CSV i còpies de seguretat automàtiques.

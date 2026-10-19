@@ -1,0 +1,42 @@
+Your money, your people, your phone. Nothing else.
+
+vESTER is a colourful notebook for your finances that lives entirely on your phone. No bank login, no account, no ads and no internet permission: your numbers never leave your device unless you export them.
+
+★ ACCOUNTS AND TRANSACTIONS
+• As many accounts as you like, each with its own colour and emoji
+• Payments, income and transfers between accounts
+• Categories, notes and receipt photos
+• Templates for what you repeat, autocomplete and search by text, amount, date or account
+• Undo after deleting instead of "are you sure?" dialogs
+
+★ DEBTS AND SHARED EXPENSES
+• Debts to pay and to collect, with due dates and partial payments
+• Groups for a trip, a flat or a dinner: split equally or by parts, see each person's balance and settle up with the fewest payments
+• PDF report of any debt, ready to send
+
+★ BUDGETS, GOALS AND REPORTS
+• Monthly budgets per category with alerts at 80% and 100%
+• Savings goals with how much to set aside each month
+• Reports by month and year, calendar view and account combination
+• Your month can start on payday
+• Monthly PDF report
+
+★ SCHEDULED AND RECURRING
+• Give a movement a future date and it is logged by itself
+• Repeat it every day, week, month or year
+
+★ PRIVATE BY DESIGN
+• Fingerprint or face lock, hidden in the recents screen
+• Discreet mode: balances show as ••••
+• Export and import CSV
+• Automatic weekly backup to a folder you choose
+• Multiple currencies with manual exchange rates
+
+★ FAST TO LOG
+• Home-screen widget, Quick Settings tile and launcher shortcuts
+• Cash counter for coins and notes
+• Optional suggestions from notifications: if you grant notification access, vESTER reads payment notifications only from a short list of wallet, bank and mail apps to offer suggestions you confirm. Nothing else is read or stored, and nothing leaves your device.
+
+Material 3 design, light and dark themes, tablet layouts. Available in English, Spanish, French, German, Italian, Portuguese, Catalan, Basque and Galician.
+
+Open source (GPLv3): github.com/Eduzyrtin/vESTER

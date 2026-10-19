@@ -1,0 +1,42 @@
+Votre argent, vos proches, votre téléphone. Rien d'autre.
+
+vESTER est un carnet coloré pour vos finances qui reste entièrement sur votre téléphone. Aucune connexion bancaire, aucun compte à créer, aucune publicité et aucune autorisation internet : vos chiffres ne quittent jamais votre appareil, sauf si vous les exportez.
+
+★ COMPTES ET OPÉRATIONS
+• Autant de comptes que vous voulez, chacun avec sa couleur et son emoji
+• Paiements, revenus et virements entre comptes
+• Catégories, notes et photos de tickets
+• Modèles pour ce que vous répétez, saisie semi-automatique et recherche par texte, montant, date ou compte
+• Annuler après une suppression, sans boîte de dialogue « êtes-vous sûr ? »
+
+★ DETTES ET DÉPENSES PARTAGÉES
+• Dettes à payer et à encaisser, avec échéance et paiements partiels
+• Groupes pour un voyage, une colocation ou un dîner : partage à parts égales ou par parts, solde de chacun et remboursements en un minimum de paiements
+• Rapport PDF de chaque dette, prêt à envoyer
+
+★ BUDGETS, OBJECTIFS ET RAPPORTS
+• Budgets mensuels par catégorie avec alertes à 80 % et 100 %
+• Objectifs d'épargne avec le montant à mettre de côté chaque mois
+• Rapports par mois et par année, calendrier et combinaison de comptes
+• Votre mois peut commencer le jour de la paie
+• Rapport mensuel en PDF
+
+★ OPÉRATIONS PROGRAMMÉES ET RÉCURRENTES
+• Donnez une date future à une opération et elle s'enregistre toute seule
+• Répétez-la chaque jour, semaine, mois ou année
+
+★ CONFIDENTIEL PAR CONCEPTION
+• Verrouillage par empreinte ou visage, app masquée dans les récents
+• Mode discret : les soldes s'affichent ••••
+• Export et import CSV
+• Sauvegarde hebdomadaire automatique dans le dossier de votre choix
+• Plusieurs devises avec taux de change manuel
+
+★ SAISIE RAPIDE
+• Widget, tuile des réglages rapides et raccourcis du lanceur
+• Compteur d'espèces pour pièces et billets
+• Suggestions depuis les notifications (facultatif) : si vous accordez l'accès aux notifications, vESTER lit les notifications de paiement uniquement d'une courte liste d'applis de portefeuille, de banque et de messagerie pour vous proposer des suggestions que vous confirmez. Rien d'autre n'est lu ni stocké, et rien ne quitte votre appareil.
+
+Design Material 3, thèmes clair et sombre, mises en page pour tablettes. Disponible en anglais, espagnol, français, allemand, italien, portugais, catalan, basque et galicien.
+
+Open source (GPLv3) : github.com/Eduzyrtin/vESTER
