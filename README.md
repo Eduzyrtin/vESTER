@@ -171,7 +171,11 @@ The app is written in **Kotlin** with Views and ViewBinding, a **Room** database
 
 ## Support the project
 
-If the app is useful to you, you can support its development on **[Ko-fi](https://ko-fi.com/Eduzyrtin)**. Donations are optional and nothing changes in the app either way.
+vESTER is a passion project and it is **free**, on Google Play and on GitHub. If it is useful to you:
+
+- ☕ **[Buy me a coffee on Ko-fi](https://ko-fi.com/Eduzyrtin)**
+- ▶️ **[Get it on Google Play](https://play.google.com/store/apps/details?id=com.sanabria.vester)**: automatic updates included.
+- ⭐ Star the repo and tell a friend who splits bills with you.
 
 ## Credits
 
