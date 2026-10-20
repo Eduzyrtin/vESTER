@@ -10,6 +10,7 @@ Keep track of your accounts, split expenses with friends and flatmates, and stay
 [![Android 7.1+](https://img.shields.io/badge/Android-7.1%2B-3DDC84?logo=android&logoColor=white)](#requirements)
 [![Material 3](https://img.shields.io/badge/Material-3-FF9800?logo=materialdesign&logoColor=white)](#features)
 [![License: GPLv3](https://img.shields.io/badge/license-GPLv3-blue)](LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20the%20project-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/Eduzyrtin)
 [![No internet permission](https://img.shields.io/badge/Internet%20permission-none-C6F28E)](#privacy)
 [![9 languages](https://img.shields.io/badge/languages-9-8E6FD8)](#features)
 [![Latest release](https://img.shields.io/github/v/release/Eduzyrtin/vESTER?color=C6F28E&label=download)](https://github.com/Eduzyrtin/vESTER/releases/latest)
@@ -167,6 +168,10 @@ Open the folder in **Android Studio** and run the `debug` variant, or from a ter
 ```
 
 The app is written in **Kotlin** with Views and ViewBinding, a **Room** database (the schema is exported to `app/schemas` and every migration is tested), **WorkManager** for scheduled transactions and backups, and **Material 3**. Charts use [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart). The package is `com.sanabria.vester`.
+
+## Support the project
+
+If the app is useful to you, you can support its development on **[Ko-fi](https://ko-fi.com/Eduzyrtin)**. Donations are optional and nothing changes in the app either way.
 
 ## Credits
 
